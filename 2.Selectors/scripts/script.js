@@ -26,44 +26,8 @@ paragraphs.forEach(paragraph => {
   }
 
 
-  // function getRandomColor() {
-  //   let randomColor = () => Math.floor(Math.random() * 256); // 256 = nbr de couleurs en RGB
-  //   return `rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`
-  // };
-
-
-
    if (!paragraph.classList.length) {
     let randomColor = () => Math.floor(Math.random() * 256);
-     let textColor = `rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`;
-   paragraph.style.color = textColor;
+   paragraph.style.color = `rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  //   // Give each paragraph a random text color unless it has a class
-  //   if (!paragraph.classList.length) {
-  //     let randomColor = () => Math.floor(Math.random() * 256);
-  //     let textColor = `rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`;
-  //     paragraph.style.color = textColor;
-  //   }
 });
