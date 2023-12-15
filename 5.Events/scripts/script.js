@@ -12,13 +12,33 @@ const _initTime = Date.now()
 
 document.addEventListener('DOMContentLoaded', function () {
 
+// ------------------------------------------------------------------
+// 3 manières de pour random color background
+// ------------------------------------------------------------------
+
+// ------------------------------------------------------------------
+// Manière 1
+// ------------------------------------------------------------------
 //     const randomColor = () => {
 //         const r = Math.floor(Math.random() * 255);
 //         const g = Math.floor(Math.random() * 255);
 //         const b = Math.floor(Math.random() * 255);
-
 //         return `rgb(${r}, ${g}, ${b})`;
 //     }
+
+// ------------------------------------------------------------------
+// Manière 2
+// ------------------------------------------------------------------
+// if (!paragraph.classList.length) {
+//     let randomColor = () => Math.floor(Math.random() * 256);
+//    paragraph.style.color = `rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`;
+//   }
+
+// ------------------------------------------------------------------
+// Manière 3
+// ------------------------------------------------------------------
+//   const randomColor = '#' + Math.floor(Math.random() * 256);
+// section.style.backgroundcolor = `rgb(${randomColor()}, ${randomColor()}, ${randomColor()}`
 
 
 
